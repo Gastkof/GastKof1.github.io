@@ -1,0 +1,51 @@
+body {background-color: rgb(199, 195, 250);}
+
+ p    {color: red;}
+ h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color: wheat;
+}
+table{
+        border: 5;
+    border-radius: 3px;
+    border-color: white;
+}
+.title1{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    text-align: center;
+    color: wheat;
+    font-size: xx-large;
+    font-style: italic;
+    text-decoration: underline;
+}
+#h{
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+
+}
+.formclass{
+
+    background-color: coral;
+    box-sizing: border-box;
+    box-sizing: 5px;
+    border: 10px;
+    border-radius: 25px;
+    
+    align-items: center;
+    align-content: center;
+    position: relative;
+    
+}
+
+.labels{
+
+color: mediumblue;
+font-size: larger;
+
+}
+

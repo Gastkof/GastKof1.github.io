@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class 17 Dec</title>
+    <script
+    src="https://code.jquery.com/jquery-3.5.1.js"
+    integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+    crossorigin="anonymous"></script>
+    <script>
+
+        function x(){
+        $("li").add("<p>hello World</p>").css("background-color");
+        }
+        x();
+    </script>
+    <link rel="stylesheet"   href="Css/style.css" > 
+</head>
+
+
+
+
+<body>
+
+    <li>
+        <ul></ul>
+    </li>
+
+    <H1 class="title1">
+        Welcome to our new WebSiste
+    </H1>
+    <h2 id="h"> nice to see you all agian
+         </h2>
+         <h2 dir="rtl">שלום לכולם ברוכים הבאים וחג שמח לכולם
+             חג החגים
+         </h2>
+         <table dir="rtl">
+             <tr>
+                 <td> 
+                   <a href="https://he.wikipedia.org/wiki/%D7%97%D7%A0%D7%95%D7%9B%D7%94" target="_blank">  <h2> חנוכה</h2></a>
+                </td>
+                 <td>
+                    <p >
+                        מקור שמם של ימי החנוכה הוא כנראה מלשון חנוכת המזבח או חנוכת המקדש, שנערכה לאחר כיבושו וטיהורו של בית המקדש על ידי המכבים, שלזכרה נחגג החג בתאריכו, כפי שמתואר בספר מקבים א',[2] בדומה לחנוכת המשכן ולחנוכת מקדש שלמה,[3] ובהתאמה להנחת אבן הפינה לבית המקדש השני (יום ייסוד היכל ה') שהייתה בתאריך דומה.[4] הייתה זו גם האפשרות המחודשת להשלים את חגיגת חג הסוכות ושמיני עצרת בבית המקדש שלא נחגגו בעקבות גזרות אנטיוכוס, חגיגות הנמשכות שמונה ימים בדומה לשבעת ימי המילואים בטרם חנוכת המשכן.[5]
+                     </p>
+                     
+                 </td>
+                 <td>
+                   <a  href="page2.html">  <img alt="h" src="Images/1.jpg"/></a>
+                 </td>
+             </tr>
+             <tr>
+                 <td>
+                       <a href="https://he.wikipedia.org/wiki/%D7%97%D7%92_%D7%94%D7%9E%D7%95%D7%9C%D7%93" target="_blank"> <h2>חג המולד</h2></a>
+                 </td>
+                 <td>
+                    סיפור לידתו של ישו מבוסס בעיקר על הסיפור בברית החדשה המופיע בספר הבשורה על-פי מתי, ובספר הבשורה על-פי לוקס. הגרסאות המופיעות בשני הספרים שונות במקצת זו מזו.
+                 </td>
+                 <td>
+                    <a href="page3.html"><img alt="c" src="Images\2.jpg"/></a> 
+                 </td>
+             </tr>
+         </table>
+    
+
+                        <form  action="page2.html" target="_blank" method="GET">
+                            <label for="FirstName">First Name </label><br>
+                            <input type="text" id="FirstName" placeholder="Enter First Name" Maxlength="7"><br>
+                            <label for="LastName">Lasr Name </label><br>
+                            <input type="text" id="LastName" placeholder="Enter Last Name"><br>
+
+
+                            <input type="radio" id="Tesla" Name="Tesla" value="Tesla">
+                            <label for="Tesla">Tesla</label><br>
+                            <input type="radio" id="Fiat" Name="Fiat" value="Fiat">
+                            <label for="Fiat">Fiat</label><br>
+                            <input type="radio" id="Toyota" Name="Toyota" value="Toyota">
+                            <label for="Toyota">Toyota</label><br>
+
+                            <input type="radio" id="Renu" Name="Renu" value="Renu">
+                            <label for="Renu">Renu</label><br>
+
+
+
+                            <input type="checkbox" id="Tesla" Name="Tesla" value="Tesla">
+                            <label for="Tesla">Tesla</label><br>
+                            <input type="checkbox" id="Fiat" Name="Fiat" value="Fiat">
+                            <label for="Fiat">Fiat</label><br>
+                            <input type="checkbox" id="Toyota" Name="Toyota" value="Toyota">
+                            <label for="Toyota">Toyota</label><br>
+
+                            <input type="checkbox" id="Renu" Name="Renu" value="Renu">
+                            <label for="Renu">Renu</label><br>
+
+
+                            <input type="number" id="Renu" Name="Renu" value="1">
+                            <label for="Renu">Renu</label><br>
+
+
+                            <input type="file" id="file" Name="image" >
+                            <label for="file">Renu</label><br>
+                            <input type="image" id="image" Name="image">
+                            <label for="image">Renu</label><br>
+
+
+                            <label for="fruits">fruits</label><br>
+                            <select id="fruits" name="fruits" size="3" multiple>
+                                    <option value="1">Banna</option>
+                                    <option value="2">apple</option>
+                                    <option value="3">painapple</option>
+                                    <option value="4">passion fruit</option>
+                                    <option value="5">mango</option>
+
+                            </select>
+
+                            <textarea name="msg" rows="10" cols="30" placeholder="please enter some text">
+
+                            </textarea>
+
+                            <button type="button" onclick="alert('nice to see you all')">send </button>
+                       <input type="submit" value="Send">
+                          <input type="reset" onclick="alert(' the form has been cleared')">
+
+                          
+                            
+                        </form>
+
+
+
+
+         <a href="mailto:gastonk@yvc.ac.il">Send me an email</a> 
+
+
+</body>
+</html>
+
